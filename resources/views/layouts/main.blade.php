@@ -19,6 +19,7 @@
 <main>
     @yield('main-content')
 </main>
+
 @include('includes.footer')
 
 

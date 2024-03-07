@@ -1,10 +1,10 @@
 <footer>
         <div id="footer-top">
             <div class="container">
-                <div class="row">
-                    <div class="cols-2">
+                <div class="row row-cols-2">
+                    <div class="col">
                         <div class="row">
-                            <div class="cols-3">
+                            <div class="col">
                                 <h3>Dc comics</h3>
                                 <ul>
                                     <li>Characters</li>
@@ -15,14 +15,14 @@
                                     <li>Videos</li>
                                     <li>News</li>
                                 </ul>
-
+            
                                 <h3>Shop</h3>
                                 <ul>
                                     <li>Shop dc</li>
                                     <li>Shop dc collectibles</li>
                                 </ul>
                             </div>
-                            <div class="cols-3">
+                            <div class="col">
                                 <h3>Dc</h3>
                                 <ul>
                                     <li>Terms Of Use</li>
@@ -38,7 +38,7 @@
                                     <li>Contact Us</li>
                                 </ul>
                             </div>
-                            <div class="cols-3">
+                            <div class="col">
                                 <h3>Sites</h3>
                                 <ul>
                                     <li>DC</li>
@@ -49,22 +49,25 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="cols-2">
+                        </div>
+                        
+                    
+                    <div class="col">
                         <figure>
                             <img src="{{Vite::asset('resources/img/dc-logo-bg.png')}}" alt="Logo DC bg" id="logo-footer">
                         </figure>
-                    </div>
+                    </div> 
                 </div>
+                   
             </div>
         </div>
         <div id="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="cols-2">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col">
                         <button role="button">SIGN-UP NOW!</button>
                     </div>
-                    <div class="cols-2 d-flex">
+                    <div class="col d-flex">
                         <h2>FOLLOW US</h2>
                         <ul id="social">
                             <li><a href="#"><img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="facebook"></a></li>

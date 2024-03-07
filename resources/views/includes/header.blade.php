@@ -4,18 +4,46 @@
     </figure>
     <nav>
         <ul>
-            <li >
-                <a href="">CHARACTERS</a>
-                <a href="">COMICS</a>
-                <a href="{{route('movies')}}">MOVIES</a>
-                <a href="">TV</a>
-                <a href="">GAMES</a>
-                <a href="">COLLECTIBLES</a>
-                <a href="">VIDEOS</a>
-                <a href="">FANS</a>
-                <a href="">NEWS</a>
-                <a href="">SHOP</a>
+            <li>
+                <a href="{{route('home')}}" class="{{Route::is('home') ? 'active' : ''}}"">CHARACTERS</a>
             </li>
+            <li>
+                <a href="{{route('comics')}}"class="{{Route::is('comics') ? 'active' : ''}}">COMICS</a>
+            </li>
+            <li>
+                <a href="">MOVIES</a>
+            </li>
+            <li>
+                <a href="">TV</a>
+
+            </li>
+            <li>
+                <a href="">GAMES</a>
+
+            </li>
+            <li>
+                <a href="">COLLECTIBLES</a>
+
+            </li>
+            <li>
+                <a href="">VIDEOS</a>
+
+            </li>
+            <li>
+                <a href="">FANS</a>
+
+            </li>
+            <li>
+                <a href="">NEWS</a>
+
+            </li>
+            <li>
+                <a href="">SHOP</a>
+
+            </li>
+               
+            
         </ul>
     </nav>
 </header>
+

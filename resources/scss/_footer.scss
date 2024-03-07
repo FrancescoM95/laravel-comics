@@ -6,6 +6,10 @@ footer {
         margin-bottom: 15px;
     }
 
+    ul {
+        padding: 0;
+    }
+
     li {
         cursor: pointer;
     }
@@ -42,18 +46,8 @@ footer {
         color: #7A7B79;
     }
 
-    .row {
-        display: flex;
-        gap: 50px;
 
-        .cols-2 {
-            flex-basis: 50%;
-            height: 100%;
-        }
-    }
 }
-
-
 
 #logo-footer {
     max-width: 100%;
@@ -62,12 +56,7 @@ footer {
 
 #footer-bottom {
     height: 80px;
-    line-height: 80px;
     background-color: #303030;
-
-    .row {
-        align-items: center;
-    }
 }
 
 #social {
