@@ -19,3 +19,22 @@ Create un nuovo progetto Laravel.
 1. Rimuovere riga 3 del package.json (type: module)
 1. `npm run dev`
 1. Importare gli assets con la direttiva @vite() nella `<head>` del vostro layout.
+
+---
+
+## esercizio di oggi: **Laravel Comics Detail Page**
+
+nome repo: `laravel-comics`
+
+Continute a lavorare sul vostro progetto DC comics, questa volta aggiungendo una rotta dinamica che visualizzi la pagina del dettaglio.
+
+Procediamo per step:
+
+1. Dichiariamo una rotta che riceva in ingresso un parametro che rappresenta l'indice del fumetto.
+1. Grazie a questo indice individuiamo il giusto fumetto e stampiamolo in pagina con un dd()
+1. Proviamo se tutto funziona mettendo l'indirizzo a mano nella barra di ricerca del browser
+1. Se tutto funziona, andiamo nella pagina con la lista dei fumetti e montiamo il link dinamicamente su ognuna delle copertine. Possiamo farlo sia con url() che con route()
+1. Se anche così riusciamo a vedere il dump corretto del fumetto, procediamo a generare una vista per la pagina di dettaglio e ad inviare il prodotto a questa vista.1. Infine, create un markup e uno style come mostrato nell'immagine in allegato!
+
+Buon lavoro e buon weekend!
+PS i dati dei comics sono nell'array che vi ho passato ieri
