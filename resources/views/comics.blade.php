@@ -4,7 +4,7 @@
 
 @section('main-content')
 <div class="container">
-    <div class="row g-3 py-4">
+    <div class="row g-3 py-5">
         @foreach ($comics as $index => $comic)
        
             <div class="comic-card">
