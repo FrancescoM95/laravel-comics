@@ -3,7 +3,7 @@
         <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="Logo DC" id="logo">
     </figure>
     <nav>
-        <ul>
+        <ul class="m-0">
             <li>
                 <a href="{{route('home')}}" class="{{Route::is('home') ? 'active' : ''}}"">CHARACTERS</a>
             </li>

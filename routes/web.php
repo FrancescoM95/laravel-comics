@@ -21,3 +21,9 @@ Route::get('comics', function () {
     $comics = config('comics');
     return view('comics', compact('comics'));
 })->name('comics');
+
+
+Route::get('product/{index}', function ($index) {
+    $comics = config('comics');
+    return view('product', ['comic' => $comics[$index]]);
+})->name('product');
