@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'COMIC')
+@section('title', $comic['series'])
 
 @section('main-content')
 <section id="product">
